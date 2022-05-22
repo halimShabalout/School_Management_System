@@ -139,3 +139,245 @@ a:hover { transition: all 200ms ease-in-out; }
   transition: all 200ms linear;
   transition-delay: 300ms;
 }
+
+.sidebar-menu {
+  position: fixed;
+ float: left;
+ width: 230px;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ background-color: #4e0d06;
+ color: #aaabae;
+ box-shadow: 0px 0px 10px 0px rgb(58, 41, 31);
+-o-box-shadow: 0px 0px 10px 0px rgb(58, 41, 31);
+-webkit-box-shadow: 0px 0px 10px 0px rgb(58, 41, 31);
+-moz-box-shadow: 0px 0px 10px 0px rgb(58, 41, 31);
+z-index: 999;
+}
+#menu {
+list-style: none;
+margin: 0;
+padding: 0;
+margin-bottom: 20px;
+}
+
+#menu li {
+position: relative;
+margin: 0;
+   border-bottom: 1px ridge #4e0d06;
+ padding: 0;
+padding: 0;
+}
+
+#menu li ul {
+opacity: 0;
+height: 0px;
+}
+
+#menu li a {
+font-style: normal;
+ font-weight: 400;
+ position: relative;
+ display: block;
+ padding: 13px 20px;
+ color: #fff;
+ white-space: nowrap;
+ z-index: 2;
+ background-color: #4e0d06;
+ font-size:0.9em;
+ font-family: 'Roboto', sans-serif;
+border:none;
+   border-left: 4px solid #4e0d06 ;
+}
+
+#menu li a:hover {
+color: #ffffff;
+background-color:#4e0d06;
+transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+border-left: 4px solid #ffb71c;
+}
+
+#menu li.active > a {
+background-color: #2b303a;
+color: #ffffff;
+}
+
+#menu ul li {background-color:#ffb71c; }
+
+#menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#menu li ul {
+position: absolute;
+visibility: hidden;
+left: 100%;
+top: -1px;
+background-color: #2b303a;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+opacity: 0;
+transition: opacity 0.1s linear;
+border-top: 1px solid rgba(69, 74, 84, 0.7);
+}
+
+#menu li:hover > ul {
+visibility: visible;
+opacity: 1;
+}
+li#menu-mensagens,li#menu-arquivos {
+background-color:#ffb71c !important;
+}
+#menu li li ul {
+right: 100%;
+visibility: hidden;
+top: -1px;
+opacity: 0;
+transition: opacity 0.1s linear;
+}
+
+#menu li li:hover ul {
+visibility: visible;
+opacity: 1;
+}
+
+#menu .fa { margin-right: 5px; }
+
+.logo {
+ width: 100%;
+    padding: 14px 14px;
+ box-sizing: border-box;
+}
+
+.sidebar-icon {
+    margin-top: -2px;
+ border: 1px solid #ffb71c;
+ text-align: right;
+ line-height: 1;
+ font-size: 19px;
+ padding: 8px 10px;
+ border-radius: 0px;
+ color: #fff;
+ background: #ffb71c;
+ float: right;
+}
+ul#menu i {
+ font-size: 1.1em;
+ margin-right: 6px;
+   width: 10%;
+}
+ul#menu-academico-sub {
+ z-index: 999;
+}
+li#menu-academico{
+z-index: 999;
+}
+/*#logo
+{
+ width: 150px;
+ height: 64px;
+ vertical-align: middle;
+ -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+}*/
+
+.fa-html5 {
+color: #fff;
+margin-left: 50px;
+}
+.menu {
+ text-align: left;
+}
+/*--down--*/
+.down ul li {
+ list-style: none;
+ display: inline-block;
+margin: 0 10px;
+}
+span.name-caret {
+ margin: 10px 0px 3px 0px;
+ font-size: 1.4em;
+ color: #ffb71c;
+ display: block;
+ text-align: center;
+ font-weight: 400;
+}
+.down  a img {
+      border-radius: 50%;
+ -o-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+ border: 3px solid #4e0d06;
+}
+
+.down{
+padding: 26px 0 30px;
+ text-align: center;
+   background: #fff;
+}
+.dropdown-menu li a i{
+ font-size: 14px;
+ margin-right: 6%;	
+   color: #879498;
+}
+.down p {
+ font-size: 0.9em;
+ color: #777;
+ padding: 5px 8px;
+}
+.down ul {
+padding:0;
+margin:0;
+}
+.down ul li a {
+ color: #fff;
+ background: none;
+   text-decoration: none;
+}
+.down i {
+ font-size: 1.2em;
+color:#ffb71c;
+vertical-align: middle;
+}
+i.lnr.lnr-user {
+ font-size: 1.07em;
+}
+i.lnr.lnr-power-switch {
+ font-size: 1.3em;
+}
+a.tooltips {
+position: relative;
+display: inline;
+}
+a.tooltips span {
+  position: absolute;
+ width: 65px;
+ color: #FFFFFF;
+ background: #4e0d06;
+ height:28px;
+ line-height: 30px;
+ text-align: center;
+ visibility: hidden;
+ font-size: 0.8em;
+}
+a.tooltips span:after {
+content: '';
+position: absolute;
+bottom: 100%;
+left: 50%;
+margin-left: -8px;
+width: 0; height: 0;
+border-bottom: 8px solid #4e0d06;
+border-right: 8px solid transparent;
+border-left: 8px solid transparent;
+}
+a:hover.tooltips span {
+visibility: visible;
+opacity: 0.8;
+top: 30px;
+left: 50%;
+margin-left: -38px;
+z-index: 999;
+}
+/*--//down--*/
