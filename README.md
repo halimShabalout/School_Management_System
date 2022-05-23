@@ -2,3 +2,5 @@
 Okul Otomasyonu 
 
 # PHP
+
+# MySQL
