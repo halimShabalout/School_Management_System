@@ -29,6 +29,13 @@ class project2
 		$st_login_num = $st_login_run->num_rows;
 		return $st_login_num;
 	}
+	public function student_info_select($st_username)
+	{
+		$student_info_sel = "SELECT * from st_info where st_username='$st_username'";
+		$student_info_run = $this->connectdb->query($student_info_sel);
+		
+		return $student_info_run;
+	}
 }
 
 $ravi = new project2;
