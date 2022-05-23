@@ -22,6 +22,13 @@ class project2
         $this->connectdb = new mysqli($this->server,$this->username,$this->password,$this->dbname);
         return $this->connectdb;
     }
+	public function student_login_check($st_username,$st_password)
+	{ 
+		$st_login_check = "SELECT  * from st_info where st_username = '$st_username' and st_password='$st_password'";
+		$st_login_run = $this->connectdb->query($st_login_check);
+		$st_login_num = $st_login_run->num_rows;
+		return $st_login_num;
+	}
 }
 
 $ravi = new project2;

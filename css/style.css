@@ -224,3 +224,213 @@ ul.agile_forms li{
     font-size: 1.4em;
     color: #262c38;
 }
+.w3l_about_bottom_left{
+	padding:0;
+	position:relative;
+}
+.w3l_about_bottom_left img{
+	width:100%;
+}
+.play-icon{
+    position: absolute;
+    top: 51%;
+    left: 46%;
+}
+.play-icon i {
+    font-size:4em;
+    color: #fff;
+}
+.play-icon:focus{
+	outline:none;
+}
+.w3l_about_bottom_left_video{
+	position: absolute;
+    top: 37%;
+    left: 36%;
+}
+.w3l_about_bottom_left_video h4,.w3l_about_bottom_left_video.book-text h4 {
+    text-transform: uppercase;
+    font-size: 1.7em;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 0.4em 0em;
+    width: 100%;
+    text-align: center;
+}
+.w3l_about_bottom_left_video.book-text h4 {
+	background: rgba(0, 0, 0, .5);
+}
+.w3l_about_bottom_right {
+    padding: 6.5em 3.5em 10.6em;
+    background: #f5f5f5;
+}
+.agileinfo_header1{
+	font-size: 1.6em;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding: .5em 0;
+    position: relative;
+}
+.w3l_about_bottom_right p{
+	margin:1em 0 3em;
+	color:#555;
+	line-height:2em;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0px!important;
+}
+h3.tittle.why {
+    text-align: left;
+}
+.w3layouts_header_right {
+    float: right;
+    position: relative;
+    width: 18%;
+    margin-left: .5em;
+}
+.header {
+	padding: 0.6em 3em;
+    background: #1d1d1d;
+}
+.w3layouts_header_right input[type="search"] {
+    width: 70%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+    color: #999;
+    padding: 8px 15px 8px 15px;
+    font-size: 1em;
+    float: left;
+    letter-spacing: 1px;
+}
+.w3layouts_header_right input[type="submit"] {
+    outline: none;
+    border: none;
+    background: #ffb71c url(../images/search.png)no-repeat 12px 5px;
+    color: #fff;
+    padding: 8px 0;
+    width: 20%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+}
+/*--model-about--*/
+.agileits-main ul {
+    float: left;
+    width: 50%;
+}
+li.text {
+    color: #000;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 1em;
+    text-transform: capitalize;
+    list-style: none;
+}
+li.agileits-main {
+    list-style: none;
+	position: relative;
+}
+li.agileits-main i {
+    font-size: 1.2em;
+    color: #fff;
+    position: absolute;
+    top: 31%;
+    left: 4%;
+}
+.agile-submit {
+    text-align: center;
+}
+.agile-submit input[type="submit"] {
+    padding: .8em 4em;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    margin:3em 0 0;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    background: #ffb71c;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.agile-submit input[type="submit"]:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.clo1 {
+    margin-top:0px !important;
+}
+.header-w3l h2 {
+    font-size: 2.8em;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.header-w3l h4 {
+    font-size: 1.6em;
+    color: #ffb71c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding:1em 0 2.5em;
+}
+/*--//model-about--*/
+.video-grid-single-page-agileits img {
+    width: 100%;
+}
+#video,#video1,#video2,#video3,#video4,#video5,#video5,#video7,#video8  {
+  position: relative;
+  background: #000;
+     width: 100%;
+    margin:0px auto;
+}
+
+#video img,
+#video iframe,#video1 img,
+#video1 iframe
+ { display: block;width:100%; }
+
+#play {
+    position: absolute;
+       top:47%;
+    left: 44%;
+    width:64px;
+    height:64px;
+    cursor: pointer;
+    background: url('../images/play-button.png') no-repeat 0px 0px;
+    background-size: auto, cover;
+    z-index: 9;
+}
+#play6 {
+	 position: absolute;
+       top: 30%;
+    left: 44%;
+    width:64px;
+    height:64px;
+    cursor: pointer;
+    background: url('../images/play-button.png') no-repeat 0px 0px;
+    background-size: auto, cover;
+    z-index: 9;
+}
+.video_agile_player {
+    padding: 0;
+}

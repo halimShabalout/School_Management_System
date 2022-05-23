@@ -131,6 +131,50 @@
 <div class="clearfix"> </div> 
 <!-- //Modal -->
 
-    
+<!-- about -->
+<div class="about-top" id="about">
+	<div class="container">
+		<h3 class="w3l-title">Hakkımızda</h3>
+		<div class="w3layouts_header">
+			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
+		</div>
+		<div class="col-md-7 wthree-services-bottom-grids">
+			<div class="wthree-services-left">
+				<img src="images/AT1.jpg" alt="">
+			</div>
+			<div class="wthree-services-right">
+				<img src="images/AT2.jpg" alt="">
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="col-md-5 wthree-about-grids">
+			<h4>Okulumuza Hoş Geldiniz</h4>
+			<a href="#" class="trend-w3l" data-toggle="modal" data-target="#myModal"><span>Fazla Oku</span></a>
+			<a href="#mail" class="trend-w3l scroll"><span>iletişime Geçiniz</span></a>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- modal -->
+<div class="modal about-modal w3-agileits fade" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+			</div> 
+			<div class="modal-body">
+				<img src="images/HA1.jpg" alt=""> 
+				<p>Kullanıcı ihtiyaçlarını analiz ederek, uygun çözümler üretebilmek,
+						Kullanıcının belirlediği fakat genelde sürtüşmelere yol açan zaman, maliyet, kullanılabilirlik gibi noktalarda uzlaşma sağlayabilmek,
+						Mühendislik yaklaşımlarını kullanırken etik, sosyal, yasal ve ekonomik ilgileri bütünleştirecek uygun çözümleri tasarlayabilmek,
+						Yazılım tasarımı, geliştirilmesi, gerçekleştirimi ve doğrulanması için temel sağlayan mevcut teorileri, modelleri ve teknikleri anlamak ve uygulayabilmek,
+						Yazılım geliştirme ortamında etkin olarak çalışmak, gerekli olduğunda liderlik yapabilmek ve kullanıcılarla iyi iletişim kurabilmek yani proje yönetimi becerisine sahip olmak,
+						İlgili alanlardaki gelişmeleri takip edip, uygulayabilmek gibi yetenekler kazanması amaçlanmaktadır. </p>
+			</div> 
+		</div>
+	</div>
+</div>
+<!-- //modal --> 
+<!-- //about -->
 </body>
 </html>
