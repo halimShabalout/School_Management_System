@@ -93,4 +93,57 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</ul>
 									</nav>
 								</div>
+								<section id="section-2">
+										
+											
+										<div class="col-md-12">
+											<?php 
+											if(isset($_POST['change_password']))
+											{
+												
+												$prev_password = $student_name_display['st_password'];
+												$old_password = $_POST['old_password'];
+												
+												if($prev_password!=$old_password)
+												{ 
+													echo "<script>alert('Old Password Does not Matched');</script>";	
+												}
+												else
+												{
+													$st_username = $student_name_display['st_username'];
+												$st_password_update = $_POST['new_password'];
+													$update_success = $ravi->student_password_change($st_password_update,$st_username);
+													print_r($update_success);
+												
+												if($update_success==true)
+												{
+												echo "<script>window.location = 'home.php?success';</script>";
+												}
+													else
+													{
+														echo "<script>alert('cant update password');</script>";
+													}
+												}
+												
+											}
+									
+											?>
+											<form method="post">
+											<div class="input-group input-icon">
+												<span class="input-group-addon">
+											<i class="fa fa-key"></i>	</span>
+												<input type="password" class="form-control1 icon" name="old_password" placeholder="eski Şifre">
+												
+											</div>
+											<div class="input-group input-icon">
+												<span class="input-group-addon">
+											<i class="fa fa-key"></i>	</span>
+												<input type="password" class="form-control1 icon" placeholder="Yeni Şifre" name="new_password">
+												
+											</div>	
+									
+												<input type="submit" name="change_password" class="a_demo_four" value="Şifre Güncelle">
+												</form>
+										</div>
+									</section>
 	</body>
