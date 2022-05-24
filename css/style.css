@@ -434,3 +434,334 @@ li.agileits-main i {
 .video_agile_player {
     padding: 0;
 }
+/*-- registration --*/
+.signin-form {
+	padding: 0em 1em 1em 1em;
+    text-align: center;
+}
+.signin-form h3,h3.agileinfo_sign  {
+       font-size: 1.5em;
+    color: #212121;
+    font-weight: 700;
+    margin: 1em 0 0.8em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h3.agileinfo_sign  {
+	text-align:center;
+}
+.signin-form h3 span {
+    color: #4e0d06;
+}
+.signin-form img {
+    border-radius: 50%;
+}
+.login-form {
+    margin: 1em 0 2.5em;
+}
+.signin-form input[type="email"], .signin-form input[type="text"], .signin-form input[type="password"], .signin-form textarea {
+    width: 100%;
+    padding: 1em;
+    font-size: 0.8em;
+    margin: 2em 0px;
+    outline: none;
+    color: #212121;
+    border: none;
+    border: 1px solid #ccc;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.signin-form input[type="email"] {
+    background: none;
+    display: block;
+}
+.signin-form input[type="text"] {
+    background: none;
+    display: block;
+}
+.signin-form input[type="password"] {
+     background: none;
+    display: block;
+}
+.signin-form textarea {
+	min-height:100px;
+}
+.signin-form input[type="submit"] {
+    outline: none;
+    padding: 0.8em 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 1em;
+    border: none;
+    color: #FFFFFF;
+	text-transform:uppercase;
+    cursor: pointer;
+    background: #ffb71c;
+    box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
+}
+.signin-form input[type="submit"]:hover {
+    color: #fff;
+    background: #000;
+    transition: .5s all;
+	-webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+.signin-form p a {
+    font-size: 0.875em;
+    color: #212121;
+    letter-spacing: 1px;
+}
+.login-social-grids{
+    margin: 1em 0;
+}
+.login-social-grids ul {
+    padding: 0;
+    margin: 0;
+}
+.login-social-grids ul li {
+    display: inline-block;
+    margin: 0 .5em 0 0;
+}
+.login-social-grids ul li a {
+    color: #FFFFFF;
+    text-align: center;
+}
+.login-social-grids ul li a i.fa.fa-facebook, .login-social-grids ul li a i.fa.fa-twitter, .login-social-grids ul li a i.fa.fa-rss{
+    height: 30px;
+    width: 30px;
+    border: solid 2px #212121;
+    line-height: 29px;
+    background: none;
+    color: #212121;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.login-social-grids ul li a i.fa.fa-facebook:hover {
+	border: solid 2px #4e0d06;
+	background:#4e0d06;
+    color: #FFFFFF;
+}
+.login-social-grids ul li a i.fa.fa-twitter:hover{
+	border: solid 2px #4e0d06;
+	background:#4e0d06;
+	color: #FFFFFF;
+}
+.login-social-grids ul li a i.fa.fa-rss:hover{
+	border: solid 2px #f26522;
+	background:#f26522;
+	color: #FFFFFF;
+}
+.modal-header .close{
+	float:right!important;
+}
+.form-control:focus {
+    border: 1px solid #ccc;
+    outline: 0;
+	box-shadow:none!important;
+}
+/*-- //registration --*/
+/*--logins--*/
+.login-main input[type="text"],.newsletter input[type="email"],.login-main input[type="email"] {
+    font-size: 1em;
+    color: #000;
+    padding: 0.7em 0em;
+    margin-bottom: 1em;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-family: 'Nunito', sans-serif;
+	background: Transparent;
+	width: 100%;
+}
+.login-main input[type="text"]{
+	 width: 100%;
+}
+.newsletter input[type="email"]{
+	width:77%;
+}
+.agileits-main input[type="text"], .agileits-main input[type="email"] {
+    font-size: 1em;
+    color: #fff;
+    padding: .9em 1em .9em 2.5em;
+    margin: 1em 0 2em;
+    outline: none;
+    border: none;
+    background: #4e0d06;
+    width: 100%;
+}
+.login-main input[type="password"] {
+    font-size: 1em;
+    color: #000;
+    padding: 0.7em 0em;
+    margin-bottom: 1em;
+    width: 100%;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-family: 'Nunito', sans-serif;
+	background: Transparent;
+}
+.login-main input[type="submit"] {
+    font-size: 1em;
+    color: #fff;
+    background: #4e0d06;
+    border: none;
+    width: 82%;
+    display: block;
+    padding: 0.7em 1em;
+    text-align: center;
+    margin: 1.5em auto;
+	border-radius: 20px;
+    transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+    outline: none;
+    cursor: pointer;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.login-main input[type="submit"]:hover{
+    background:rgba(0, 0, 0, 0.82);
+    transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+.login-main.wthree {
+    width: 80%;
+    margin: 3em auto;
+}
+/*--//logins--*/
+/*-- //about-bottom --*/
+/*-- about --*/
+.about-top {
+    padding: 5em 0 10em;
+}
+h3.w3l-title {
+    font-size: 3.5em;
+    color: #4e0d06;
+    text-align: center;
+    letter-spacing: 1px;
+	position:relative;
+}
+.w3layouts_header p {
+    font-size: 2em !important;
+    color: #ffb71c;
+    position: relative;
+    margin: .5em 0 1em !important;
+    text-align: center;
+}
+.w3layouts_header p:before, .w3layouts_header p:after {
+    content: '';
+    background: #676666;
+    height: 2px;
+    width: 5%;
+    position: absolute;
+    top: 46%;
+}
+.w3layouts_header p:before {
+    left: 41%;
+}
+.w3layouts_header p:after {
+    right: 41%;
+}
+.wthree-services-right {
+    position: absolute;
+    top: 21%;
+    right: 51%;
+}
+.wthree-services-bottom-grids {
+    position: relative;
+}
+.wthree-services-right {
+    position: absolute;
+    top: 15%;
+    right: 9%;
+}
+.wthree-about-grids {
+    padding: 7em 5em 0;
+}
+.wthree-about-grids h4 {
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 1em;
+    color: #ffb71c;
+}
+a.trend-w3l {
+    font-size: .9em;
+    color: #fff;
+    padding: 1.1em 2em;
+    letter-spacing: 1px;
+    background: #4e0d06;
+    display: inline-block;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+a.trend-w3l:hover {
+    background: #000;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.modal-body img {
+    width: 100%;
+}
+.modal-body p {
+    margin: 2em 0;
+}
+.modal-header {
+    border-bottom: none !important;
+}
+/*-- //Scocial-Icons --*/
+/*-- //about --*/
+/*-- Stats Section --*/
+.stats {
+	background: url(../images/BG1.jpg) no-repeat 0px 0px;
+    padding: 100px 0;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    background-attachment: fixed;
+}
+.stats-info {
+	text-align: center;
+}
+.stats h4 {
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 600;
+    background: #ffb71c;
+    padding: .5em;
+    border-right: 5px solid #fff;
+    border-radius: 13px 0;
+}
+.stats-grid {
+	font-size: 60px;
+	font-weight: 400;
+	color: white;
+	margin-bottom: 10px;
+}
+h4.stats-info {
+	margin-top: 20px;
+}
+/*-- //Stats Section --*/

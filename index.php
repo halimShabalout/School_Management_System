@@ -176,5 +176,70 @@
 </div>
 <!-- //modal --> 
 <!-- //about -->
+
+<!--stats-->
+<div class="stats" id="stats">
+	<div class="container">
+		<div class="stats-info">
+			<div class="col-md-3 col-xs-3 stats-grid slideanim">
+				<i class="fa fa-users" aria-hidden="true"></i>
+				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='12760' data-delay='.5' data-increment="1">12760</div>
+				
+				<h4 class="stats-info">TAMAMLANACAK KURSLAR</h4>
+			</div>
+			<div class="col-md-3 col-xs-3 stats-grid slideanim">
+				<i class="fa fa-book" aria-hidden="true"></i>
+				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='3100' data-delay='.5' data-increment="1">3100</div>
+				
+				<h4 class="stats-info"> TAMAMLANMIŞ KURSLAR</h4>
+			</div>
+			<div class="col-md-3 col-xs-3 stats-grid slideanim">
+				<i class="fa fa-trophy" aria-hidden="true"></i>
+				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1200' data-delay='.5' data-increment="10">1200</div>
+				
+				<h4 class="stats-info">Mevcüt Öğrenci Sayısı</h4>
+			</div>
+			<div class="col-md-3 col-xs-3 stats-grid slideanim">
+					<i class="fa fa-user" aria-hidden="true"></i>
+				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='60' data-delay='.5' data-increment="1">60</div>
+			
+				<h4 class="stats-info">Hocalarımız Sayısı</h4>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//stats-->
+<!-- services -->
+<div class="services" id="services" >
+	<div class="container">  
+		<h3 class="w3l-title">hizmetlerimiz</h3>
+		<div class="w3layouts_header">
+			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
+		</div>
+		<div class="services-w3ls-row">
+			<div class="col-xs-4 services-grid agileits-w3layouts">
+				<span class="fa fa-graduation-cap" aria-hidden="true"></span>
+				<h6>01</h6>
+				<h5>  Yapay Zeka Alanı</h5>
+				<p> insan beyninin benzerini bir makine içerisinde tasarlamak ve bu makinenin “akıl yürütme, bilgi sunumu, planlama, öğrenme, algılama, hareket edebilme ve manipüle etme becerisini sağlama olarak tanımlayabiliriz.</p>
+			</div>
+			<div class="col-xs-4 services-grid agileits-w3layouts">
+				<h6>02</h6>
+				<h5>  Web Alanı</h5>
+				<p>Sitenizdeki tüm yazılar, görsel dosyalar, kod, dosyaları, veritabanları, mail, adresi ve diğer uzantı yada türlere sahip dosyalar bu web alanı üzerinde depolanırlar.</p>
+				<span class="fa fa-user-o grid-w3l-ser" aria-hidden="true"></span>
+			</div>
+			<div class="col-xs-4 services-grid agileits-w3layouts">
+				<span class="fa fa-book" aria-hidden="true"></span>
+				<h6>03</h6>
+				<h5>  Bilgi Güvenliği</h5>
+				<p>Bilgi güvenliği, bilgilerin izinsiz kullanımından, izinsiz ifşa edilmesinden, izinsiz yok edilmesinden, izinsiz değiştirilmesinden, bilgilere hasar verilmesinden koruma.</p>
+			</div> 
+			<div class="clearfix"> </div>
+		</div>  
+	</div>
+</div>
+<!-- //services -->
 </body>
 </html>
