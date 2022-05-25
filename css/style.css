@@ -764,4 +764,49 @@ a.trend-w3l:hover {
 h4.stats-info {
 	margin-top: 20px;
 }
-/*-- //Stats Section --*/
+/*-- //Sta/
+
+*-- services --*/  
+.services, .team-w3l, .contact{
+	padding:5em 0;
+}
+.services-w3ls-row {
+    text-align: center;
+}
+.services span.w3-sub {
+    color: #fff;
+}
+.services-grid h5 {
+    font-size: 2.2em;
+    color: #111;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    position: absolute;
+    top: 47%;
+    left: 7%;
+}
+.services-grid.agileits-w3layouts h6 {
+    font-size: 4em;
+    color: #e2e2e2;
+    font-weight: bold;
+}
+.services-grid.agileits-w3layouts {
+    position: relative;
+}
+.services-grid h5:nth-child(2) {
+    top: 5%;
+    left: 13%;
+}
+.services-grid.agileits-w3layouts span {
+    font-size: 4em;
+    color: #ffb71c;
+	margin-bottom: .8em;
+}
+span.grid-w3l-ser {
+    margin: .8em 0 0 !important;
+}
+.services-grid.agileits-w3layouts p {
+    margin-top: 1em;
+}
+/*-- //services --*/ 
