@@ -680,3 +680,64 @@ li.dropdown.note i{
 .candile {
     margin-top: 2em;
 }
+
+/*** Profile Details **/
+.profile_picture{
+	text-align:center;
+}
+.profile_picture a{
+	display:block;
+}
+.profile_picture > a {
+	display: block;
+	margin:0 auto;
+    border-radius:8em;
+    -webkit-border-radius:8em;
+    -moz-border-radius:8em;
+    -o-border-radius:8em;
+    width:100px;
+    height:100px;
+}
+.profile_picture_name{
+	padding-top:20px;
+}
+.profile_picture_name h2{
+	margin-bottom:5px;
+	font-size:20px;
+	color: #535351;
+	font-weight:600;
+}
+.profile_picture_name p{
+	font-size:12px;
+	color: #BCBCBC;
+	line-height: 1.6em;
+}
+.articles_list li {
+	display:block;
+	padding:15px 0;
+	border-bottom:1px solid #F8F8F8;
+}
+.articles_list li a{
+	display:block;
+	color:#909090;
+	font-size:12px;
+	text-align:left;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	cursor:pointer;
+}
+.articles_list li a:hover{
+	color:#65CEA7;
+}
+.articles_list li a i{
+	display:inline-block;
+	margin-right:8px;
+	font-size:20px;
+	vertical-align:top;
+}
+.articles_list li a i span{
+	font-size:25px;
+	color:#FFF;
+}
