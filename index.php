@@ -241,8 +241,6 @@
 	</div>
 </div>
 <!-- //services -->
-<<<<<<< HEAD
-=======
 
 <!-- Gallery -->
 <section class="portfolio-w3ls" id="gallery">
@@ -349,6 +347,111 @@
 				<div class="clearfix"> </div>
 </section>
 <!-- //gallery -->
->>>>>>> bc5320a9ed7d311f66fd8cbeb36123921e980ccf
+<!-- team -->
+<div class="team-w3l" id="team">
+	<div class="container">
+		<h3 class="w3l-title">Hocalarımız</h3>
+		<div class="w3layouts_header">
+			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
+		</div>
+		<div class="team-w3l-grid">
+			<div class="col-md-4 col-xs-4 about-poleft t1">
+				<div class="about_img"><img src="images/HT1.jpg" alt="">
+				  <h5>BİLAL ALATAŞ</h5>
+				  <div class="about_opa">
+					<p>Yapay Öğrenme</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 about-poleft t2">
+				<div class="about_img"><img src="images/HT2.jpg" alt="">
+				  <h5>Seda ARSLAN TUNCER</h5>
+				  <div class="about_opa">
+					<p> Görüntü İşleme</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 about-poleft t3">
+				<div class="about_img"><img src="images/HT3.jpeg" alt="">
+				  <h5>Mustafa ULAŞ</h5>
+				  <div class="about_opa">
+					<p>Big Data, Social Media</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="team-w3l-grid grid-2-team">
+			<div class="col-md-4 col-xs-4 about-poleft t1">
+				<div class="about_img"><img src="images/HT4.jpeg" alt="">
+				  <h5>Feyza ALTUNBEY ÖZBAY</h5>
+				  <div class="about_opa">
+					<p>Sosyal Ağ Yapıları</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 about-poleft t2">
+				<div class="about_img"><img src="images/HT5.jpg" alt="">
+				  <h5>Muhammed TALO</h5>
+				  <div class="about_opa">
+					<p> Deep Learning</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 about-poleft t3">
+				<div class="about_img"><img src="images/HT6.jpg" alt="">
+				  <h5>Özgür KARADUMAN</h5>
+				  <div class="about_opa">
+					<p> Database Management Systems</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //team -->
 </body>
 </html>
