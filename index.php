@@ -536,5 +536,180 @@
 	</div>
 </div>
 <div id="map"></div>
+
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<div class="wthree_footer_grid_left">
+			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1">
+				<h4>About Us</h4>
+				<p><?php echo $general_fetch['web_about']; ?></p>
+			</div>
+			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1">
+				<h4>Navigation</h4>
+				<ul>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="index.html">Home</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#about" class="scroll">About Us</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#services" class="scroll">Services</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#team" class="scroll">Team</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#gallery" class="scroll">Gallery</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#mail" class="scroll">Mail Us</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1 w3l-3">
+				<h4>Others</h4>
+				<ul>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Media</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Mobile Apps</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1 wthree_footer_grid_right1">
+				<h4>Contact Us</h4>
+				<ul>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@example.com"><?php echo $general_fetch['website_email1']; ?></a></li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i><?php echo $general_fetch['website_phone1']; ?></li>
+					<li><i class="fa fa-fax" aria-hidden="true"></i><?php echo $general_fetch['website_address']; ?></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<div class="w3layouts">
+	<div class="container">
+		<a href="http://yaz.mf.firat.edu.tr/en"><P>  SOFTWAER  && Fırat Üniversitesi Yazılım Mühendisliği  </P></a>
+	</div>
+</div>
+	<?php } 
+	else{ ?>
+
+	<div id="mail" class="contact">
+	<div class="container">
+		<h3 class="w3l-title">İletişim</h3>
+		<div class="w3layouts_header">
+			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
+		</div>
+		<div class="agile_banner_bottom_grids">
+			<div class="col-md-4 col-xs-4 w3_agile_contact_grid">
+				<div class="agile_contact_grid_left">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+				</div>
+				<div class="agile_contact_grid_right agilew3_contact">
+					<h4>Adress</h4>
+					<p><?php echo "Fırat Üniversitesi Mühendislik Fakültesi"; ?></p>
+					<p><?php echo "Yazılım Mühendisliği"; ?></p>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 w3_agile_contact_grid">
+				<div class="agile_contact_grid_left agileits_w3layouts_left">
+					<i class="fa fa-mobile" aria-hidden="true"></i>
+				</div>
+				<div class="agile_contact_grid_right agileits_w3layouts_right">
+					<h4>Telefon</h4>
+					<p><?php echo "0 424 607 (5571)"; ?> <span><?php echo " 0 424 607 (5571)"; ?></span></p>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 w3_agile_contact_grid">
+				<div class="agile_contact_grid_left agileits_w3layouts_left1">
+					 <i class="fa fa-envelope-o" aria-hidden="true"></i>
+				</div>
+				<div class="agile_contact_grid_right agileits_w3layouts_right1">
+					<h4>Email</h4>
+					<p><a href="nnamli@firat.edu.tr"><?php echo " nnamli@firat.edu.tr"; ?></a>
+						<span><a href=" soztop@firat.edu.tr"><?php echo " soztop@firat.edu.tr"; ?></a></span></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="w3l-form">
+			<h3 class="w3l-title">Sorularınızı Bekliyoruz !!</h3>
+			<div class="contact-grid1">
+				<div class="contact-top1">
+					<form action="#" method="post">
+						<div class="col-md-6 col-xs-6 wthree_contact_left_grid">
+							<label>Ad </label>
+							<input type="text" name="Name" placeholder="Ad" required="">
+							<label>E-mail</label>
+							<input type="email" name="E-mail" placeholder="E-mail" required="">
+						</div>
+						<div class="col-md-6 col-xs-6 wthree_contact_left_grid">
+							<label>Telefon Numarası</label>
+							<input type="text" name="number" placeholder="Telefon Numarası" required="">
+							<label>Konu</label>
+							<input type="text" name="subject" placeholder="Konu" required="">
+						</div>
+						<div class="form-group">
+							<label>Mesaj</label>
+							<textarea placeholder name="Mesaj" required=""></textarea>
+						</div>
+							<input type="submit" value="Gönder">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="map"></div>
+
+<!-- js-scripts -->			
+<!-- js-files -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+<!-- //js-files -->
+<!-- Baneer-js -->
+
+<!-- smooth scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+<!-- //smooth scrolling -->
+<!-- stats -->
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+<!-- //stats -->
+<!-- moving-top scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+	<script type="text/javascript">
+		$(document).ready(function() {								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //moving-top scrolling -->
+
+<!-- gallery popup -->
+<script src="js/jquery.swipebox.min.js"></script> 
+<script type="text/javascript">
+jQuery(function($) {
+	$(".swipebox").swipebox();
+});
+</script>
+<!-- //gallery popup -->
+<!--/script-->
+	<script src="js/simplePlayer.js"></script>
+			<script>
+				$("document").ready(function() {
+					$("#video").simplePlayer();
+				});
+			</script>
+<!-- //Baneer-js -->
+<!-- Calendar -->
+<script src="js/jquery-ui.js"></script>
+	<script>
+	  $(function() {
+		$( "#datepicker" ).datepicker();
+	 });
+	</script>
+<!-- //Calendar -->	
+
+<!-- //js-scripts -->
 </body>
 </html>

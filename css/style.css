@@ -1070,3 +1070,147 @@ text-align:center;
     width: 100%;
     height: 524px;
 }
+
+/*-- footer --*/
+.w3_agileits_twitter_post h4{
+	color: #212121;
+    position: relative;
+    padding-left: 2em;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+	font-weight:600;
+}
+.w3_agileits_twitter_post h4 a{
+	color:#fa3d03;
+	text-decoration:none;
+	text-transform: initial;
+}
+.w3_agileits_twitter_post h4 a:hover{
+	color:#212121;
+}
+.w3_agileits_twitter_post h4:before{
+	content:"\f099";
+	color:#4e0d06;
+	font-family:FontAwesome;
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+.wthree_footer_grid_left {
+    padding: 4em 0;
+}
+.wthree_footer_grid_left1 h4 {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #4e0d06;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: .5em;
+    margin-bottom: 1.5em;
+    letter-spacing: 1px;
+}
+.wthree_footer_grid_left1 h4:after{	
+	content: '';
+    background: #ffb71c;
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.wthree_footer_grid_left1 p{
+	color:#999;
+	line-height:2em;
+}
+.wthree_footer_grid_left1 ul li {
+    list-style-type: none;
+    color: #ffb71c;
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+}
+.wthree_footer_grid_left1 ul li i{
+	padding-right:1em;
+}
+.wthree_footer_grid_left1 ul li:last-child,.wthree_footer_grid_right1 ul li:last-child{
+	margin:0;
+}
+.wthree_footer_grid_left1 ul li a,.wthree_footer_grid_right1 ul li a{
+	color:#212121;
+	text-decoration:none;
+}
+.wthree_footer_grid_left1 ul li a:hover{
+	color:#ffb71c;
+}
+.wthree_footer_grid_right1 ul li{
+	list-style-type:none;
+	color:#212121;
+	margin-bottom:1em;
+	font-weight:600;
+}
+.wthree_footer_grid_right1 ul li i {
+    padding-right: 1em;
+    color: #ffb71c;
+}
+.wthree_footer_grid_right1 ul li a:hover{
+	color:#ffb71c;
+}
+.wthree_footer_grid_right2_w3{
+	float:left;
+	width:33.33%;
+}
+.wthree_footer_grid_right_main1{
+	text-align:center;
+	padding:1em;
+}
+.agileits_footer_social li{
+	display:inline-block !important;
+}
+.w3layouts {
+    padding: 1.5em 0;
+    text-align: center;
+	background:-webkit-linear-gradient(#ffd985,#e69f06);
+	background:-moz-linear-gradient(#ffd985,#e69f06);
+	background:-ms-linear-gradient(#ffd985,#e69f06);
+    background: linear-gradient(to right bottom,#ffd985,#e69f06);
+}
+.w3layouts p {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+}
+.w3layouts p {
+	color:#4e0d06;
+	text-decoration:none;
+}
+.w3layouts p a:hover{
+	color:#fff;
+}
+/*-- //footer --*/
+/*-- to-top --*/
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    overflow: hidden;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/up2.png) no-repeat 0px 0px;
+}
+#toTopHover {
+    width: 64px;
+    height: 64px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --*/
