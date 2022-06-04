@@ -93,6 +93,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</ul>
 									</nav>
 								</div>
+								<div class="content tab">
+										<section id="section-1">
+											<div class="mediabox">
+												<strong>Kişisel bilgileri</strong>
+												<p> <strong>Merhaba</strong>,
+													<?php echo ucfirst($student_name_display['st_fullname']); ?>
+												</p>
+												<p><strong>standart: </strong>
+													<?php echo ucfirst($student_name_display['st_grade']); ?>
+												</p>
+												<p><strong>Roll Numarası: </strong>
+													<?php echo ucfirst($student_name_display['roll_no']); ?>
+												</p>
+												<p><strong>Cinsiyet: </strong>
+													<?php echo ucfirst($student_name_display['st_gender']); ?>
+												</p>
+												<p> <strong>Doğum tarihi:</strong>
+													<?php echo ucfirst($student_name_display['st_dob']); ?>
+												</p>
+
+											</div>
+											<div class="mediabox">
+												<strong>İletişim detayları</strong>
+
+												<p> <strong>Adres:</strong>
+													<?php echo ucfirst($student_name_display['st_address']); ?>
+												</p>
+												<p> <strong>Semt:</strong>
+													<?php echo ucfirst($student_name_display['st_district']); ?>
+												</p>
+												<p> <strong>Kullanıcı adı:</strong>
+													<?php echo ucfirst($student_name_display['st_username']); ?>
+												</p>
+											</div>
+											<div class="mediabox">
+												<strong>Ebeveyn Detayı</strong>
+												<p><strong>Baba adı: </strong>
+													<?php echo ucfirst($student_name_display['st_father']); ?>
+												</p>
+												<p><strong>Anne adı: </strong>
+													<?php echo ucfirst($student_name_display['st_mother']); ?>
+												</p>
+												<p><strong>Ebeveynler İletişim: </strong>
+													<?php echo ucfirst($student_name_display['st_parents_contact']); ?>
+												</p>
+											</div>
+										</section>
 								<section id="section-2">
 										
 											
@@ -186,44 +233,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											
 										
 										</section>
-										<section id="section-3">
-												<div class="graph">
-															<div class="tables">
-															
-																<table class="table table-hover"> 
-																	<thead>
-																		<tr> 
-																			<th>#</th> 
-																			<th>Telefon</th> 
-																			<th>Öğretmen adı</th> 
-																			<th>Ders</th>
-																			<th>Email</th> 
-																			<th>Zaman</th>
-																		</tr> 
-																	</thead> 
-																	<tbody>
-															<?php 
-															$st_grade = $student_name_display['st_grade'];
-															$sn = 1;
-															$teacher_info_in_student = $ravi->teacher_info_instudent($st_grade);
-																while($t_info = $teacher_info_in_student->fetch_assoc())		{ 
-																		?>
-																		
-																		<tr>
-																			<th scope="row"><?php echo $sn; ?></th>
-																			<td></td>
-																			<td><?php echo ucwords($t_info['t_fullname']); ?></td> 
-																			<td><?php echo ucwords($t_info['subject_name']); ?></td> 
-																			<td><?php echo strtolower($t_info['t_email']); ?></td> 
-																			<td><?php echo $t_info['time']; ?></td>
-																		</tr> 
-																		<?php $sn++; } ?>
-																	</tbody> 
-																</table>
-															</div>
-												
-													</div>
-											
 										
-										</section>
 	</body>
