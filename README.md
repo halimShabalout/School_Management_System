@@ -3,4 +3,6 @@ Okul Otomasyonu
 
 # PHP
 
+#JS
+
 # MySQL
