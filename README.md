@@ -3,6 +3,6 @@ Okul Otomasyonu
 
 # PHP
 
-#JS
+# JS
 
 # MySQL
