@@ -52,6 +52,43 @@ class project2
 			}
 			
 		}
+
+		//////////////////////////////////Teacher Info ////////////////////////////////
+	public function teacher_info($adminname,$t_staff_type)
+	{
+		switch($t_staff_type)
+		{
+			case "Admin":
+			$teacher_info_select = "SELECT * from teacher_info where t_staff_type='$t_staff_type' AND t_username='$adminname'";
+			break;
+			case "Teacher":
+			$teacher_info_select = "SELECT * from teacher_info where t_staff_type='$t_staff_type' AND t_username='$adminname'";
+			break;
+			default :
+				echo "no teacher found";
+		}
+		$teacher_info_select_run = $this->connectdb->query($teacher_info_select);
+		return $teacher_info_select_run;
+		
+	
+		
+	}
+	public function teacher_info_display_admin()
+	{
+		$teacher_info_admin = "SELECT * from teacher_info";
+		$teacher_info_admin_run = $this->connectdb->query($teacher_info_admin);
+		return $teacher_info_admin_run;
+	}
+	///// display teacher info in  student panel
+	public function teacher_info_instudent($st_grade)
+	{
+		$teacher_info_instudent_select = "SELECT * from subjects_info where grade='$st_grade'";
+		$teacher_info_instudent_run = $this->connectdb->query($teacher_info_instudent_select);
+		return $teacher_info_instudent_run;
+		
+	}
+	////////////////////////End Teacher Info ------------//////////////////////
+	
 }
 
 $ravi = new project2;
