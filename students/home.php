@@ -268,5 +268,193 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 															</div>
 											</div>
 										</section>
+										<section id="section-5">
+											<div class="mediabox">
+
+											</div>
+											<div class="mediabox">
+
+											</div>
+											<div class="mediabox">
+
+											</div>
+										</section>
+									</div>
+									<!-- /content -->
+								</div>
+								<!-- /tabs -->
+
+							</div>
+							<script src="js/cbpFWTabs.js"></script>
+							<script>
+								new CBPFWTabs(document.getElementById('tabs'));
+							</script>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<!--//tabs-inner-->
+
+
+					<!--custom-widgets-->
+					<div class="custom-widgets">
+						<div class="row-one">
+							<div class="col-md-3 widget">
+								<div class="stats-left ">
+									<h4>Kullanıcı</h4>
+									<h5>Sayısı</h5>
+								</div>
+								<div class="stats-right">
+									<label>92</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-3 widget states-mdl">
+								<div class="stats-left">
+									<h4>Ziyaretçi</h4>
+									<h5>Sayısı</h5>
+								</div>
+								<div class="stats-right">
+									<label> 85</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-3 widget states-thrd">
+								<div class="stats-left">
+									<h4>Test</h4>
+									<h5>Sayısı</h5>
+								</div>
+								<div class="stats-right">
+									<label>51</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="col-md-3 widget states-last">
+								<div class="stats-left">
+									<h4>duyuru</h4>
+									<h5>Sayısı</h5>
+								</div>
+								<div class="stats-right">
+									<label>14</label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<!--//custom-widgets-->
+
+					<!--/charts-->
+					<div class="charts">
+						<div class="chrt-inner">
+							<!--//weather-charts-->
+							<div class="graph-visualization">
+								<div class="col-md-6 map-1">
+									<h3 class="sub-tittle">Profil </h3>
+
+
+								</div>
+								<div class="col-md-6 map-2">
+									<div class="profile-nav alt">
+										<section class="panel">
+											<div class="user-heading alt clock-row terques-bg">
+												<h3 class="sub-tittle clock">Saat </h3>
+											</div>
+											<ul id="clock">
+												<li id="sec"></li>
+												<li id="hour"></li>
+												<li id="min"></li>
+											</ul>
+
+
+
+										</section>
+
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+
+
+						</div>
+						<!--/charts-inner-->
+					</div>
+					<!--//outer-wp-->
+				</div>
+				<!--footer section start-->
+				<footer>
+				<a href="http://yaz.mf.firat.edu.tr/tr"><P>  SOFTWAER  && Fırat Üniversitesi Yazılım Mühendisliği  </P></a>
+				</footer>
+				<!--footer section end-->
+			</div>
+		</div>
+		<!--//content-inner-->
+		<!--/sidebar-menu-->
+		<div class="sidebar-menu">
+			<header class="logo">
+				<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="index.html"> <span id="logo"> <h1>Software</h1></span> 
+					<!--<img id="logo" src="" alt="Logo"/>--> 
+				  </a>
+			</header>
+			<div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
+			<!--/down-->
+			<div class="down">
+				<a href="index.html"><img src="images/admin.jpg"></a>
+				<a href="index.html"><span class=" name-caret"><?php echo $student_name_display['st_fullname']; ?></span></a>
+				<p>Öğrenci</p>
+				<ul>
+					<li><a class="tooltips" href="index.html"><span>Profil</span><i class="lnr lnr-user"></i></a></li>
+					<li><a class="tooltips" href="index.html"><span>Ayarlar</span><i class="lnr lnr-cog"></i></a></li>
+					<li><a class="tooltips" href="logouts.php"><span>Çıkış Yap</span><i class="lnr lnr-power-switch"></i></a></li>
+				</ul>
+			</div>
+			<!--//down-->
+			<div class="menu">
+				<ul id="menu">
+					<li><a href="index.html"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
+
+			
+				
+
+				
+	
+				</ul>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<script>
+		var toggle = true;
+
+		$(".sidebar-icon").click(function() {
+			if (toggle) {
+				$(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
+				$("#menu span").css({
+					"position": "absolute"
+				});
+			} else {
+				$(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
+				setTimeout(function() {
+					$("#menu span").css({
+						"position": "relative"
+					});
+				}, 400);
+			}
+
+			toggle = !toggle;
+		});
+	</script>
+	<!--js -->
+	<link rel="stylesheet" href="css/vroom.css">
+	<script type="text/javascript" src="js/vroom.js"></script>
+	<script type="text/javascript" src="js/TweenLite.min.js"></script>
+	<script type="text/javascript" src="js/CSSPlugin.min.js"></script>
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
 										
 	</body>
