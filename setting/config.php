@@ -88,6 +88,18 @@ class project2
 		
 	}
 	////////////////////////End Teacher Info ------------//////////////////////
+	///////////////////////// student password update //////////
+	
+	public function student_password_change($st_password_update,$st_username)
+	{
+		$student_password_update = "UPDATE st_info set st_password='$st_password_update' where st_username='$st_username'";
+		$student_password_update_run = $this->connectdb->query($student_password_update);
+		return $student_password_update_run;
+	}
+	
+	
+	
+	///////////////////------- end student password update --------------//////////////
 	
 }
 
