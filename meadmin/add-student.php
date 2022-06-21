@@ -51,8 +51,7 @@
 					<label class="control-label">Ad Soyad</label>
 					<input type="text" placeholder="Ad Soyad" required="" name="std_fullname">
 				</div>
-				<div class="vali-form">
-				
+				<div class="vali-form">	
 					
 					<div class="col-md-6 form-group1 form-last">
 						<label class="control-label">Kullanıcı adı</label>
