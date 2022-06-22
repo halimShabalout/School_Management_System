@@ -39,3 +39,91 @@
 
 
 ?>
+
+
+<div class="forms-main">
+	
+	<div class="graph-form">
+		<div class="validation-form">
+			<!---->
+			<h2 align="center"><?php echo strtoupper($_GET['ravi']); ?></h2>
+			<form method="post">
+					<div class="col-md-12 form-group1 group-mail">
+					<label class="control-label">Ad Soyad</label>
+					<input type="text" placeholder="Ad Soyad" required="" name="std_fullname">
+				</div>
+				<div class="vali-form">	
+					
+					<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">Kullanıcı adı</label>
+						<input type="text" placeholder="Kullanıcı adı" required="" name="std_username">
+					</div>
+					
+						<div class="col-md-6 form-group1">
+						<label class="control-label">Şifre</label>
+						<input type="text" placeholder="Şifre" required="" name="std_password">
+					</div>
+					<div class="clearfix"> </div>
+					<div class="col-md-6 form-group2 group-mail">
+					<label class="control-label">Kurs</label>
+					<select name="std_grade">
+						<option>kurs kodunu seç</option>
+						<?php 
+						$st_add_class = $ravi->grade($grade);
+						while($st_add_class_fetch = $st_add_class->fetch_assoc())
+						{
+						?>
+								<option value="<?php echo $st_add_class_fetch['class']; ?>"><?php echo $st_add_class_fetch['class']; ?></option>
+								
+						<?php } ?>
+					</select>
+						
+					</div>	
+					<div class="col-md-6 form-group1">
+					<label class="control-label">Cinsiyet</label>
+						<input type="text" placeholder="örneğin: Erkek veya Kadın" required="" name="std_gender">
+					</div>
+					<div class="clearfix"> </div>
+					<div class="col-md-6 form-group1">
+						<label class="control-label">Rulo</label>
+						<input type="text" placeholder="Rulo" required="" name="std_roll">
+					</div>
+					<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">Doğum tarihi</label>
+						<input type="text" placeholder="örneğin 29 Şubat 1999" required="" name="std_dob">
+					</div>
+					<div class="col-md-6 form-group1">
+						<label class="control-label">Adres</label>
+						<input type="text" placeholder="Adres" required="" name="std_address">
+					</div>
+					<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">Semt</label>
+						<input type="text" placeholder="Semt" required="" name="std_district">
+					</div>
+				
+					<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">Baba</label>
+						<input type="text" placeholder="Baba adı" required="" name="std_father">
+					</div>
+					<div class="col-md-6 form-group1">
+						<label class="control-label">Anne</label>
+						<input type="text" placeholder="Anne adı" required="" name="std_mother">
+					</div>
+					<div class="col-md-12 form-group1 form-last">
+						<label class="control-label">Ebeveyn İletişim</label>
+						<input type="text" placeholder="İletişim numarası" required="" name="std_parent_contact">
+					</div>
+				</div>
+					<div class="clearfix"> </div>
+				<div class="col-md-12 form-group button-2">
+					<input type="submit" class="btn btn-primary" value="Add Student" name="std_add_now">
+					<button type="reset" class="btn btn-default">Sıfırla</button>
+				</div>
+				<div class="clearfix"> </div>
+			</form>
+
+			<!---->
+		</div>
+
+	</div>
+</div>
