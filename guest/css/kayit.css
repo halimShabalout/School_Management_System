@@ -1,0 +1,92 @@
+body{
+	padding:0;
+	margin:0;
+	background:#fff;
+	position:relative;
+	font-family: 'Nunito', sans-serif;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.agile_short_dropdown {
+    border-radius: 0;
+    background: #ffffff;
+    text-align: center;
+	padding:0;
+	border: none;
+}
+.agile_short_dropdown li a{
+	text-transform:uppercase;
+	color:#212121;
+	font-size:13px;
+	font-weight:600;
+	padding: .8em 0;
+	border-bottom: 1px solid #ececef;
+}
+.agile_short_dropdown > li > a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color:#0ac876;
+}
+.effect-3 {
+	overflow: hidden;
+}
+.effect-3:before {
+	left: -1px;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background:#ffb71c;
+	content: '';
+    position: absolute;
+    transition: transform .5s ease;
+	transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+}
+.effect-3:hover:before {
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-o-transform: translateX(0);
+	-ms-transform: translateX(0);
+}
+.agileits_w3layouts_banner_nav {
+    margin: 0 auto;
+    width: 90%;
+}
+ul.agile_forms {
+    float: right;
+    padding-top: .5em;
+}
+ul.agile_forms li a {
+    background:#ffb71c;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 8px 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+}
+ul.agile_forms li a:hover{
+	background: #fff;
+	color:#000;
+}
+ul.agile_forms li{
+	display:inline-block;
+	list-style:none;	
+}
+/*-- bootstrap-pop-up --*/
+.close {
+    opacity: 1;
+}
