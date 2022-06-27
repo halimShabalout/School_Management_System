@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ietişim </title>
+    <title>dersler </title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -22,44 +22,32 @@
     <!-- //online-fonts -->
 </head>
 <body>
-<div id="mail" class="contact">
-	<div class="container">
-		<h3 class="w3l-title">Mail Us</h3>
+<section class="portfolio-w3ls" id="gallery">
+		<h3 class="w3l-title">Bölümlerimiz</h3>
 		<div class="w3layouts_header">
 			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
 		</div>
-		<div class="agile_banner_bottom_grids">
-			<div class="col-md-4 col-xs-4 w3_agile_contact_grid">
-				<div class="agile_contact_grid_left">
-					<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="./images//GH1.jpg" class="swipebox"><img src="images/GH1.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Makina Öğrenme</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
 				</div>
-				<div class="agile_contact_grid_right agilew3_contact">
-					<h4>Adress</h4>
-					<p><?php echo $general_fetch['website_address']; ?></p>
-					<p>Nepal</p>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH2.png" class="swipebox"><img src="images/GH2.png" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Sinir Ağları</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
 				</div>
-			</div>
-			<div class="col-md-4 col-xs-4 w3_agile_contact_grid">
-				<div class="agile_contact_grid_left agileits_w3layouts_left">
-					<i class="fa fa-mobile" aria-hidden="true"></i>
-				</div>
-				<div class="agile_contact_grid_right agileits_w3layouts_right">
-					<h4>Telefon Numarası</h4>
-					<p><?php echo $general_fetch['website_phone1']; ?> <span><?php echo $general_fetch['website_phone2']; ?></span></p>
-				</div>
-			</div>
-			<div class="col-md-4 col-xs-4 w3_agile_contact_grid">
-				<div class="agile_contact_grid_left agileits_w3layouts_left1">
-					 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-				</div>
-				<div class="agile_contact_grid_right agileits_w3layouts_right1">
-					<h4>Email</h4>
-					<p><a href="mailto:info@example.com"><?php echo $general_fetch['website_email1']; ?></a>
-						<span><a href="mailto:info@example.com"><?php echo $general_fetch['website_email2']; ?></a></span></p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-    </body>
-</html>    
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH3.jpg" class="swipebox"><img src="images/GH3.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Görüntü işleme</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+     </body>
+</html>

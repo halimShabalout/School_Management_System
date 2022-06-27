@@ -1,0 +1,96 @@
+.w3l-form{
+    padding:5em 0 0;
+}
+.agile_banner_bottom_grids {
+    text-align: center;
+}
+.agile_contact_grid_left i {
+    font-size: 3em;
+    color:#4e0d06;
+    line-height: 2em;
+}
+.agile_contact_grid_right h4 {
+    font-size: 1.5em;
+    color: #000;
+    font-weight: 600;
+    margin-bottom:.5em;
+    letter-spacing: 1px;
+}
+.agile_contact_grid_right p span{
+    display:block;
+}
+.agile_contact_grid_right p a{
+    color:#999;
+    text-decoration:none;
+}
+.agile_contact_grid_right p a:hover{
+    color:#212121;
+}
+
+.w3_agile_contact_grid {
+    background: #eee;
+    width: 32%;
+    padding: 1em 0 2em;
+    box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
+}
+.w3_agile_contact_grid:nth-child(2) {
+    margin: 0 1em;
+}
+.contact-grid1 input[type="text"], .contact-grid1 input[type="email"],.contact-grid1 textarea{
+    width: 100%;
+    padding: .8em;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    margin-bottom: 1.5em;
+}
+.contact-grid1 textarea {
+    height: 140px;
+    resize: none;
+    width: 98.5%;
+}
+.contact-top1 label {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    display: inherit;
+    margin-bottom: 0.5em;
+}
+.contact-top1 {
+    background: #ffb71c;
+    padding: 3em 3em 4em;
+    margin-top: 3em;
+}
+.contact-grid1 input[type="submit"] {
+    font-size: 1.1em;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    background: #4e0d06;
+    padding: 0.7em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    display: block;
+    width: 18%;
+    margin: 1.5em auto 0;
+    transition: 0.5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+.contact-grid1 input[type="submit"]:hover{
+    background:#000;
+     -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+.form-group {
+    margin: 0 0 0 1em;
+}
+#map {
+    width: 100%;
+    height: 524px;
+}
