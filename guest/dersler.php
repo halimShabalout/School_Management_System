@@ -49,5 +49,82 @@
 						<h4>Görüntü işleme</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
+						</a>
+				</div>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH4.png" class="swipebox"><img src="images/GH4.png" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Web</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH5.jpg" class="swipebox"><img src="images/GH5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Front-End</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH6.png" class="swipebox"><img src="images/GH6.png" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Back-End</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					   </div>
+				   </a>
+				</div>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH7.jpeg" class="swipebox"><img src="images/GH7.jpeg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Database</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					   </div>
+				   </a>
+				</div>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH8.jpg" class="swipebox"><img src="images/GH8.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Bilgi Güvenliği</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					   </div>
+				   </a>
+				</div>
+					<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH9.jpg" class="swipebox"><img src="images/GH9.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>oyun kodlama</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH10.jpg" class="swipebox"><img src="images/GH10.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>UX/UI</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH11.jpg" class="swipebox"><img src="images/GH11.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Bilgisayar Ağları</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+					<a href="images/GH12.jpg" class="swipebox"><img src="images/GH12.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Testing</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="clearfix"> </div>
+</section>
+<!-- //gallery -->
      </body>
 </html>
