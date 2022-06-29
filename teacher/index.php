@@ -13,6 +13,52 @@
 		<li><a href="#section-4" class="icon-lab"><i class="fa fa-flask"></i> <span>Dersler</span></a></li>
 		<li><a href="#section-5" class="icon-truck"><i class="fa fa-truck"></i> <span> Bilgileri Değiştirme</span></a></li>
 		</ul>
+		
+		</nav>
+		<div class="content tab">
+		<section id="section-1">
+		<div class="mediabox">
+		<strong>Kişisel bilgleri</strong>
+		<p>	<strong>Merhaba ,</strong>
+		<?php echo $info_display['t_fullname']; ?>
+		</p>
+		<p>	<strong>Nitelik:</strong>
+		<?php echo $info_display['t_qualification']; ?>
+		</p>
+		<p>	<strong>Kullanıcı adı:</strong>
+		<?php echo $info_display['t_username']; ?>
+		</p>
+		<p>	<strong>Cinsiyet:</strong>
+		<?php echo $info_display['t_gender']; ?>
+		</p>
+		<p>	<strong>Doğum tarihi:</strong>
+		<?php echo $info_display['t_dob']; ?>
+		</p>
+		</div>
+		<div class="mediabox">
+		<strong>İletişim detayları</strong>
+		<p>	<strong>Telefon:</strong>
+		<?php echo $info_display['t_contact']; ?>
+		</p>
+		<p>	<strong>Email:</strong>
+		<?php echo $info_display['t_email']; ?>
+		</p>
+		<p>	<strong>Adres:</strong>
+		<?php echo $info_display['t_address']; ?>
+		</p>	
+
+		</div>
+		<div class="mediabox">
+		<strong>Ebeveyn Detayı</strong>
+
+		<p>	<strong>Baba:</strong>
+		<?php echo $info_display['t_father']; ?>
+		</p>
+		<p>	<strong>Anne:</strong>
+		<?php echo $info_display['t_mother']; ?>
+		</p>
+		</div>
+		</section>
 
 		<section id="section-3">
 
@@ -232,5 +278,6 @@
 		</div>
 		<!--/charts-inner-->
 		</div>
+
 		<!--//outer-wp-->
 		</div>
