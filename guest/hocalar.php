@@ -75,6 +75,53 @@
 				</div>
 			</div>
 			<div class="clearfix"></div>
+            <div class="team-w3l-grid grid-2-team">
+			<div class="col-md-4 col-xs-4 about-poleft t1">
+				<div class="about_img"><img src="images/HT4.jpeg" alt="">
+				  <h5>Feyza ALTUNBEY ÖZBAY</h5>
+				  <div class="about_opa">
+					<p>Sosyal Ağ Yapıları</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 about-poleft t2">
+				<div class="about_img"><img src="images/HT5.jpg" alt="">
+				  <h5>Muhammed TALO</h5>
+				  <div class="about_opa">
+					<p> Deep Learning</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 about-poleft t3">
+				<div class="about_img"><img src="images/HT6.jpg" alt="">
+				  <h5>Özgür KARADUMAN</h5>
+				  <div class="about_opa">
+					<p> Database Management Systems</p>
+					<ul class="fb_icons2 text-center">
+						<li><a class="fa fa-facebook" href="#"></a></li>
+						<li><a class="fa fa-twitter" href="#"></a></li>
+						<li><a class="fa fa-google" href="#"></a></li>
+						<li><a class="fa fa-linkedin" href="#"></a></li>
+						<li><a class="fa fa-pinterest-p" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>  
 		</div>
     </div>
 </div>
