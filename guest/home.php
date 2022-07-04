@@ -62,3 +62,86 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!--//skycons-icons-->
 </head>
+<body>
+	<div class="page-container">
+		<!--/content-inner-->
+		<div class="left-content">
+			<div class="inner-content">
+				<!-- header-starts -->
+				<div class="header-section">
+
+					<div class="clearfix"></div>
+				</div>
+				<!-- //header-ends -->
+				<div class="outter-wp">
+					<!--/tabs-->
+					<div class="tab-main">
+						<!--/tabs-inner-->
+						<div class="tab-inner">
+							<div id="tabs" class="tabs">
+								<h2 class="inner-tittle">Merhaba,
+									<?php echo ucfirst($student_name_display['st_fullname']); ?> </h2>
+								<div class="graph">
+									<nav>
+										<ul>
+											<li><a href="#section-1" class="icon-shop"><i class="lnr lnr-briefcase"></i> <span>Bilgiler</span></a></li>
+											<li><a href="#section-2" class="icon-cup"><i class="lnr lnr-lighter"></i> <span>Şifre değiştirme</span></a></li>++</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="content tab">
+										<section id="section-1">
+											<div class="mediabox">
+												<strong>Kişisel bilgileri</strong>
+												<p> <strong>Merhaba</strong>,
+													<?php echo ucfirst($guset_name_display['st_fullname']); ?>
+												</p>
+												<p><strong>standart: </strong>
+													<?php echo ucfirst($guest_name_display['st_grade']); ?>
+												</p>
+												<p><strong>Roll Numarası: </strong>
+													<?php echo ucfirst($guest_name_display['roll_no']); ?>
+												</p>
+												<p><strong>Cinsiyet: </strong>
+													<?php echo ucfirst($guest_name_display['st_gender']); ?>
+												</p>
+												<p> <strong>Doğum tarihi:</strong>
+													<?php echo ucfirst($guest_name_display['st_dob']); ?>
+												</p>
+
+											</div>
+											<div class="mediabox">
+												<strong>İletişim detayları</strong>
+
+												<p> <strong>Adres:</strong>
+													<?php echo ucfirst($guest_name_display['st_address']); ?>
+												</p>
+												<p> <strong>Semt:</strong>
+													<?php echo ucfirst($guest_name_display['st_district']); ?>
+												</p>
+												<p> <strong>Kullanıcı adı:</strong>
+													<?php echo ucfirst($guest_name_display['st_username']); ?>
+												</p>
+											</div>
+											<div class="mediabox">
+												<strong>Ebeveyn Detayı</strong>
+												<p><strong>Baba adı: </strong>
+													<?php echo ucfirst($guest_name_display['st_father']); ?>
+												</p>
+												<p><strong>Anne adı: </strong>
+													<?php echo ucfirst($guest_name_display['st_mother']); ?>
+												</p>
+												<p><strong>Ebeveynler İletişim: </strong>
+													<?php echo ucfirst($guest_name_display['st_parents_contact']); ?>
+												</p>
+											</div>
+										</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
