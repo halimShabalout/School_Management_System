@@ -47,7 +47,95 @@ if(isset($_POST['add_class_term']))
 			
 			<h2 align="center"><?php echo strtoupper($_GET['ravi']); ?></h2>
 			
+			<form method="post">
+				<div class="col-md-12 form-group1 group-mail">
+					<label class="control-label">Sınav Dönemi Ekle</label>
+					<input type="text" placeholder="first_term" required="" name="Nepdev_exam_term">
+				</div>
 
+				<div class="col-md-12 form-group button-2">
+					<input type="submit" class="btn btn-primary" value="Add Exam Term" name="add_exam_term">
+					
+				</div>
+			</form>
+
+			form method="post">
+					<div class="col-md-6 form-group1 group-mail">
+					<label class="control-label">Tablo ismi</label>
+					<input type="text" placeholder="Table Name eg: Class 1" required="" name="Nepdev_table_Name">
+				</div>
+				<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">kurs</label>
+						<input type="text" value="student_grade" name="grade" readonly="">
+					</div>
+				<div class="clearfix"> </div>
+				<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">Öğrenci adı</label>
+						<input type="text" value="student_name" name="student_name" readonly="">
+					</div>
+			
+						<div class="col-md-6 form-group1">
+						<label class="control-label">ders adı</label>
+						<input type="text" name="subject1" value="english">
+					</div>
+					<div class="clearfix"> </div>
+							<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">ders adı</label>
+						<input type="text" name="subject2" value="english2">
+					</div>
+					
+						<div class="col-md-6 form-group1">
+						<label class="control-label">ders adı</label>
+						<input type="text"  name="subject3" value="math">
+					</div>
+						<div class="clearfix"> </div>
+								<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">ders adı</label>
+						<input type="text" name="subject4" value="math2">
+					</div>
+					
+						<div class="col-md-6 form-group1">
+						<label class="control-label">ders adı</label>
+						<input type="text"  name="subject5" value="Social">
+					</div>
+						<div class="clearfix"> </div>
+								<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">ders adı</label>
+						<input type="text" name="subject6" value="Health">
+					</div>
+					
+						<div class="col-md-6 form-group1">
+						<label class="control-label">ders adı</label>
+						<input type="text"  name="subject7" value="GK">
+					</div>
+						<div class="clearfix"> </div>
+									<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">ders adı</label>
+						<input type="text" name="subject8" value="Computer">
+					</div>
+					
+						<div class="col-md-6 form-group1">
+						<label class="control-label">ders adı</label>
+						<input type="text"  name="subject9" value="Science">
+					</div>
+						<div class="clearfix"> </div>
+							<div class="col-md-6 form-group1 form-last">
+						<label class="control-label">ders adı</label>
+						<input type="text" name="subject10" value="Nepali">
+					</div>
+					
+						<div class="col-md-6 form-group1">
+						<label class="control-label">Sınav Dönemi</label>
+						<input type="text"  name="subject11" value="first_term">
+					</div>
+						<div class="clearfix"> </div>
+				
+				
+				<div class="col-md-12 form-group button-2">
+					<input type="submit" class="btn btn-primary" value="Add Table & Field" name="add_table">
+					
+				</div>
+			</form>
 			
 		</div>
 
