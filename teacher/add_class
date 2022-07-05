@@ -59,7 +59,7 @@ if(isset($_POST['add_class_term']))
 				</div>
 			</form>
 
-			form method="post">
+			<form method="post">
 					<div class="col-md-6 form-group1 group-mail">
 					<label class="control-label">Tablo ismi</label>
 					<input type="text" placeholder="Table Name eg: Class 1" required="" name="Nepdev_table_Name">

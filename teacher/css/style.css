@@ -621,6 +621,48 @@ margin-top: 2em;
   }
 
   
+/*--graph--*/
+.grid-1{
+  margin: 2em 0 0 0;
+background:#fff;
+padding: 2em 2em;
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+-o-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+-moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+border: 1px solid #E7E7E8;
+border-radius:none;
+}
+.graph h4{
+font-size: 2em;
+text-align: center;
+margin-bottom: 1em;
+}
+
+.grid-graph span {
+float: right;
+padding-left: .5em;
+}
+
+.grid-2{
+float: left;
+}
+.graph-box1 {
+margin: 1em 0;
+}	
+ul.nav.tabs {
+padding: 0;
+  margin: 0;
+}
+ul.nav.tabs li a {
+color: #777;
+}
+ul.nav.tabs li {
+border-bottom: 1px solid #E6E5E5;
+}	
+.compose {
+padding-left: 0;
+}
 /*--forms--*/
 .graph-form{
   padding:2em 2em;
