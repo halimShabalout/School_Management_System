@@ -220,3 +220,66 @@ li#menu-academico{
 .menu {
     text-align: left;
 }
+}
+.agileits-main ul {
+  float: left;
+  width: 50%;
+}
+li.text {
+  color: #000;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 1em;
+  text-transform: capitalize;
+  list-style: none;
+}
+li.agileits-main {
+  list-style: none;
+position: relative;
+}
+li.agileits-main i {
+  font-size: 1.2em;
+  color: #fff;
+  position: absolute;
+  top: 31%;
+  left: 4%;
+}
+.agile-submit {
+  text-align: center;
+}
+.agile-submit input[type="submit"] {
+  padding: .8em 4em;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  margin:3em 0 0;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  background: #ffb71c;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+.agile-submit input[type="submit"]:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+.clo1 {
+  margin-top:0px !important;
+}
+.header-w3l h2 {
+  font-size: 2.8em;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+} 

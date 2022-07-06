@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
     <link rel="stylesheet" href="css/swipebox.css">
     <link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="sytlesheet" href="css/iletisim.css"/>
     <!-- //css files -->
     <!-- online-fonts -->
     <link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
